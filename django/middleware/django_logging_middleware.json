@@ -1,6 +1,6 @@
 {
 	"CONFIG" : {
-	    "log_file": "/var/log/config_service/server.log",
+	    "log_file": "/var/log/django_server.log",
 	    "normal_log_format": "%(asctime)-15s %(client_ip)s %(user)s %(method)s %(host)s %(path)s %(status)d %(len)d %(time)s",
 	    "log_level": "DEBUG",
 	    "log_rotation_size": 52428800,
