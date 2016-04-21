@@ -1,0 +1,11 @@
+{
+	"CONFIG" : {
+	    "log_file": "/var/log/config_service/server.log",
+	    "normal_log_format": "%(asctime)-15s %(client_ip)s %(user)s %(method)s %(host)s %(path)s %(status)d %(len)d %(time)s",
+	    "log_level": "DEBUG",
+	    "log_rotation_size": 52428800,
+	    "log_rotation_count": 5,
+	    "verbose_log_format": "%(asctime)-15s %(user)s %(request)s %(path)s %(status)d %(len)d %(time)s %(response)s",
+	    "log_format": "normal_log_format"
+	}
+}
